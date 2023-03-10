@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/finyour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Find Your"
+        android:textColor="@color/purple_700"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/favorite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/finyour"
+        android:text="Fevorite Workout"
+        android:textColor="@color/purple_700"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+    <RelativeLayout
+        android:id="@+id/medation"
+        android:layout_width="match_parent"
+        android:layout_height="175dp"
+        android:layout_below="@+id/favorite"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/ronde"
+        android:backgroundTint="#9767DA">
+
+        <TextView
+            android:id="@+id/txtmed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="10dp"
+            android:text="Meditation"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="154dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="21dp"
+            android:layout_toRightOf="@+id/txtmed"
+            android:src="@drawable/yoga" />
+
+        <TextView
+            android:id="@+id/ex1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtmed"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="23dp"
+            android:text="46 Exetcise"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/exty"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_below="@id/txtmed"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="28dp"
+            android:src="@drawable/exty" />
+
+        <TextView
+            android:id="@+id/ho"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ex1"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="38dp"
+            android:layout_marginTop="4dp"
+            android:text="60 Hours"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="52dp"
+            android:src="@drawable/clock" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/ho"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="11dp"
+            android:src="@drawable/next" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/cardio"
+        android:layout_width="match_parent"
+        android:layout_height="175dp"
+        android:layout_below="@+id/medation"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/ronde"
+        android:backgroundTint="@color/teal_200">
+
+        <TextView
+            android:id="@+id/txtmed2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="10dp"
+            android:text="Cardio"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:layout_width="217dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="75dp"
+            android:layout_marginTop="0dp"
+            android:layout_toRightOf="@+id/txtmed2"
+            android:src="@drawable/cardio" />
+
+        <ImageView
+            android:id="@+id/exty1"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentStart="true"
+
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="9dp"
+            android:layout_marginTop="72dp"
+            android:src="@drawable/exty" />
+
+        <TextView
+            android:id="@+id/ex2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtmed2"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="23dp"
+            android:text="26 Exetcise"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginBottom="51dp"
+            android:src="@drawable/clock" />
+
+        <TextView
+            android:id="@+id/ho2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ex2"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="37dp"
+            android:layout_marginTop="8dp"
+            android:text="33 Hours"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/next"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/ho2"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="46dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/next" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/Pilates"
+        android:layout_width="match_parent"
+        android:layout_height="175dp"
+        android:layout_below="@+id/cardio"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/ronde"
+        android:backgroundTint="#150232">
+
+        <TextView
+            android:id="@+id/txtmed3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="10dp"
+            android:text="Pilats"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+
+        <ImageView
+            android:layout_width="249dp"
+            android:layout_height="137dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="53dp"
+            android:layout_marginTop="21dp"
+            android:layout_toRightOf="@+id/txtmed3"
+            android:src="@drawable/yoga2" />
+
+        <TextView
+            android:id="@+id/ex3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtmed3"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="23dp"
+            android:text="46 Exetcise"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/exty3"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_below="@id/txtmed3"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="28dp"
+            android:src="@drawable/exty" />
+
+        <TextView
+            android:id="@+id/ho3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ex3"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="38dp"
+            android:layout_marginTop="4dp"
+            android:text="60 Hours"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="53dp"
+            android:src="@drawable/clock" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/ho3"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="11dp"
+            android:src="@drawable/next" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
